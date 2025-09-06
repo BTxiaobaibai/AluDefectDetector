@@ -1,0 +1,10 @@
+# 路径指向我们最终生成的、结构标准的YOLO数据集文件夹
+# 使用绝对路径，确保YOLOv5能准确找到
+train: D:/Storage/Backend_project_python/school/AluDefectDetector/dataset/aluminum/yolo_dataset/images/train
+val: D:/Storage/Backend_project_python/school/AluDefectDetector/dataset/aluminum/yolo_dataset/images/val
+
+# nc: number of classes (类别的总数)
+nc: 4
+
+# names: class names (所有类别的名称列表)
+names: ['zhen_kong', 'ca_shang', 'zang_wu', 'zhe_zhou']
