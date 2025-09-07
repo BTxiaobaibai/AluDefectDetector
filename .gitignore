@@ -1,13 +1,21 @@
-# PyCharm
+# 忽略PyCharm的配置文件
 .idea/
 
-# Conda
-.cache/
-envs/
-
-# Python
+# 忽略Python的缓存文件
 __pycache__/
 *.pyc
 
-# Dataset cache files
+# 忽略Conda环境文件夹（以防误创建在项目内）
+envs/
+.conda/
+
+# 忽略数据集的缓存文件
 *.cache
+
+# 忽略第三方代码库yolov5
+# 这是可以从别处下载的，我们不需要上传
+yolov5/
+
+# 忽略庞大的数据集文件夹
+# 数据集应该独立传输，不通过Git
+dataset/
