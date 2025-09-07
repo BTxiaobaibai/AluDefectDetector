@@ -1,0 +1,13 @@
+# PyCharm
+.idea/
+
+# Conda
+.cache/
+envs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Dataset cache files
+*.cache
